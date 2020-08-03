@@ -12,6 +12,7 @@ class Song
     @@all
   end
   
+  def
   
 
   
