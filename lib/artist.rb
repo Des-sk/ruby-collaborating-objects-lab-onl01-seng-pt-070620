@@ -27,8 +27,6 @@
     self.all.find {|artist| artist.name == name } || self.all.create { |artist| artist.name == Artist.new(name)
   end
 end
-end
-end 
   
 
   
