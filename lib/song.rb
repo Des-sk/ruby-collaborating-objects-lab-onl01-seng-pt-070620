@@ -18,7 +18,8 @@ class Song
   end
   
   def songs
-    
+     @songs << song
+  end
   
 
   
