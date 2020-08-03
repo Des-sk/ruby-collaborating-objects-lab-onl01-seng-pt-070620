@@ -15,7 +15,7 @@
   end
   
   def add_song(song)
-    self.song == @songs
+    song.self == @song
     
   end
    
