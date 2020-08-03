@@ -12,7 +12,8 @@ class Song
     @@all
   end
   
-  def
+  def add_song(song)
+    
   
 
   
