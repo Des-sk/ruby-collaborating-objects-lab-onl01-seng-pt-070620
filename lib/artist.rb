@@ -49,8 +49,7 @@
   end
   
 
-def print_songs
-    self.songs.each.print {|song| song.name}
+ 
     
   end
 end
