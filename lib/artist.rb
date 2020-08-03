@@ -23,15 +23,7 @@
     Song.all.select {|songs| songs.artist == self}
   end
   
-  def self.find_or_create_by_name(name)  
-    self.all.find {|artist| artist.name == name } || self.all.create { |artist| artist.name == Artist.new(name)
-  end
-end  
 
-  def save
-    @@all << self
-  end
-end
   
 
   
