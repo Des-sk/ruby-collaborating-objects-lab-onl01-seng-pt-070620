@@ -51,6 +51,7 @@
 
 def print_songs
     self.songs.each {|song| song.name}
+    puts song.name
   end
 end
   
