@@ -18,8 +18,8 @@
   end
   
   def songs
-     Song.artist== self
-     @songs
+     
+
   end
   
 
