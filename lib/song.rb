@@ -13,16 +13,5 @@ class Song
     @@all
   end
   
-  def add_song(song)
-   
-  end
-  
-  def songs
-     Song.artist== self
-     @songs
-  end
-  
-
-  
 end
   
