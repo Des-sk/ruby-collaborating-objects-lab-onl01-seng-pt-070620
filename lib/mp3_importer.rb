@@ -9,7 +9,7 @@ class MP3Importer
     
   end
   
-  def impoprt
+  def import
     
   end
   
