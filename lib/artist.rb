@@ -20,8 +20,7 @@
   end
   
   def song
-    Song.all.select |songs|
-      songs.artist = self
+    Song.all.select {|songs| songs.artist == self}
  end
  
   
