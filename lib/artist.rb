@@ -15,7 +15,7 @@
   end
   
   def add_song(song)
-    @songs.artist == self
+    @songs.name == self
   end
    
  
