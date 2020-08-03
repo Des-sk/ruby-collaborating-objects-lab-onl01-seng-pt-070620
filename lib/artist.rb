@@ -7,6 +7,7 @@
   def initialize(name)
     @name = name
     @@all << self
+    @song= [ ]
   end
   
   def self.all
@@ -17,12 +18,7 @@
     @songs << song
   end
    
-  end
-  
-  def songs
-     
-
-  end
+ 
   
 
   
