@@ -50,8 +50,8 @@
   
 
 def print_songs
-    self.songs.each {|song| song.name}
-    puts song.name
+    self.songs.each.print {|song| song.name}
+    
   end
 end
   
