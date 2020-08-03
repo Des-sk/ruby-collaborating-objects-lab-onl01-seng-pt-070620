@@ -16,6 +16,8 @@ class Song
   def add_song(song)
     @songs << song
   end
+  
+  def songs
     
   
 
