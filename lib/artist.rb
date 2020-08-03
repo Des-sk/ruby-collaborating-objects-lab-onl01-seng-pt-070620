@@ -21,7 +21,11 @@
   
   def song
     Song.all.select {|songs| songs.artist == self}
- end
+  end
+  
+  def.find_or_create_by_name
+  
+  end
  
   
 
