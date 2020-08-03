@@ -22,7 +22,6 @@
   def song
     Song.all.select |songs|
       songs.artist = self
-  end
  end
  
   
