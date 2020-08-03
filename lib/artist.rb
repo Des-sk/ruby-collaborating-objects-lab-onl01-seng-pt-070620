@@ -18,6 +18,11 @@
     song.artist = self
     song<< @songs
   end
+  
+  def song
+    Song.all do |songs|
+      songs.artist = self
+  end
    
  
   
