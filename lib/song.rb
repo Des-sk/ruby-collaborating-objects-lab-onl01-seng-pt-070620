@@ -23,11 +23,7 @@ class Song
     new_song
   end
     
-  def self.create(song)
-    @@all<< song
-    new_song.artist_name = artist
-    new_song
-  end
+ 
 
   
   
