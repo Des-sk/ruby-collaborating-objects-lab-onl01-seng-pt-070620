@@ -22,10 +22,10 @@ class Song
   def self.new_by_filename(file)
     song_info = file.chomp(".mp3").split(" - ")
     
-    song = self.new(song_info[1])
-    song.artist_name = song_info[0]
+    new_song = self.new(song_info[1])
+    new_song.artist_name = song_info[0]
     binding.pry
-    song
+    new_song
   end
   
   def artist_name=(name)
