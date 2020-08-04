@@ -24,6 +24,7 @@ class Song
     new_song = self.new(song_info[1])
     new_song.artist_name = song_info[0]
     new_song
+    binding.pry
   end
   
   def artist_name=(name)
