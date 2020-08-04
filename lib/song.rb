@@ -4,8 +4,9 @@ class Song
   @@all= [ ]
   
   def initialize(name)
-    @name= name
-    save
+    @name = name
+    @artist = artist
+    @file_name = file_name
   end
   
   def save
